@@ -22,7 +22,6 @@
   "main": "dist/ng2-qrcode.js",
   "typings": "dist/ng2-qrcode",
   "scripts": {
-    "preinstall": "npm i typings -g",
     "prepublish": "typings install && tsc",
     "postinstall": "typings install"
   },
